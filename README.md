@@ -11,12 +11,25 @@
 #前端资源(FED)
 
 ###javascript
-  1. javascript 工具
-  2. javascript 库
-  3. javascript 框架
-  4. javascript 移动端
+  1.  原生
+  2.  库
+      1. jquery 
+      1. 
+  3.  MV**框架
+      1. backbone + underscroe 
+      2. Angularjs
+      3. jquery-ui
+      4. Extjs4
+      5. YUI
+      6. Mootolls
+  4.  移动端
+      1.jquery mobi
 
 #后端资源(BED)
   1. NodeJs
+     1. 构建工具
+     2. 框架
+        1.express
+
   2. PHP
   3. Python
