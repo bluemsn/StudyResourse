@@ -8,14 +8,14 @@
 
 ****
 
-#[前端资源(FED)](./fed/README.md)
----
-#javascript
-##   原生
+##[前端资源(FED)](./fed/README.md)
+ 
+###javascript
+####   原生
 
 
 
-##   库  
+####   库  
 1. [**jQuery**[直达]](./fed/jquery/README.md) <不解释最常用的库了  列举各种资源包括 相应的  **插件**  > 	
    -  [jqueryUI]()		
    -  [jqueryMobel]()
@@ -31,51 +31,57 @@
 1. seajs 
  
 
-## MV**框架
+#### MV**框架
 
-### Backbone
+1. Backbone
 
 
  - [**backbone Api** ](http://backbonejs.org/ "Api backbone 前端mvc框架") + [**underscroe Api** ](http://underscorejs.org/ "Api  非常全的功能函数库  backbone 的依赖者") 
- 1. [backbone 中文API Csser.com ](http://www.csser.com/tools/backbone/backbone.js.html "backbone 中文API [ by bluemsn ] ")  -----  [underscore 中文API Csser.com](http://www.css88.com/doc/underscore/#each "underscore 中文api 文档 [ by bluemsn ]")
- 1. Backbone Book [[En]](http://addyosmani.github.io/backbone-fundamentals/ "Developing Backbone.js Applications [ by bluemsn ]")  [[CN]](http://feliving.github.io/developing-backbone-applications/backup/ "backbone book 中文翻译 [ by bluemsn ] ")
- 1. Backbone Todo Demo 	[todomvc.com](http://todomvc.com/architecture-examples/backbone/ "todomvc --> backbone todo demo [ by bluemsn ] ")
- 1. [Hello backbone example ](http://arturadib.com/hello-backbonejs/ "hello backbone demo [ by bluemsn ] ")  
- 1. [backbone 源码解析 ](http://www.cnblogs.com/nuysoft/archive/2012/03/14/2395272.html "源码解析 [ by bluemsn ] ")
+ - [backbone 中文API Csser.com ](http://www.csser.com/tools/backbone/backbone.js.html "backbone 中文API [ by bluemsn ] ")  -----  [underscore 中文API Csser.com](http://www.css88.com/doc/underscore/#each "underscore 中文api 文档 [ by bluemsn ]")
+ - Backbone Book [[En]](http://addyosmani.github.io/backbone-fundamentals/ "Developing Backbone.js Applications [ by bluemsn ]")  [[CN]](http://feliving.github.io/developing-backbone-applications/backup/ "backbone book 中文翻译 [ by bluemsn ] ")
+ - Backbone Todo Demo 	[todomvc.com](http://todomvc.com/architecture-examples/backbone/ "todomvc --> backbone todo demo [ by bluemsn ] ")
+ - [Hello backbone example ](http://arturadib.com/hello-backbonejs/ "hello backbone demo [ by bluemsn ] ")  
+ - [backbone 源码解析 ](http://www.cnblogs.com/nuysoft/archive/2012/03/14/2395272.html "源码解析 [ by bluemsn ] ")
     
   
 	
 
 
 
-### Angularjs
+2. Angularjs
 
 
-### jquery-ui
+3. jquery-ui
 
 
-### Extjs4
-
-
-
-### Mootolls
+4. Extjs4
 
 
 
-##  移动端
+5. Mootolls
+
+
+
+####  移动端
 
   1. jquery mobile
   1. iScroll4 IScroll5  	
 
 
-1. ### 国内外技术博客
-	>国内：
+## 国内外技术博客
+>国内：
 	
-##	博客
+ - 博客
+ - 博客
+ - 博客
+ - 博客
 
 
 
-    >国外： 
+>国外：
+
+ - a 
+ 
 ****
 #[后端资源(BED)](./bed/README.md)
 
