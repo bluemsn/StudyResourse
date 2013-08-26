@@ -30,39 +30,35 @@
 1. [requirejs](http://requirejs.org/docs/optimization.html "requirejs 前端 依赖加载 [ by bluemsn ]") [ AMD 规范 ] 
 1. seajs 
  
- 
+
 ## MV**框架
 
-
-1. [**backbone Api** ](http://backbonejs.org/ "Api backbone 前端mvc框架") + [**underscroe Api** ](http://underscorejs.org/ "Api  非常全的功能函数库  backbone 的依赖者") 
-
-1. [backbone 中文API Csser.com ](http://www.csser.com/tools/backbone/backbone.js.html "backbone 中文API [ by bluemsn ] ")  -----  [underscore 中文API Csser.com](http://www.css88.com/doc/underscore/#each "underscore 中文api 文档 [ by bluemsn ]")
+### Backbone
 
 
-1. Backbone Book [[En]](http://addyosmani.github.io/backbone-fundamentals/ "Developing Backbone.js Applications [ by bluemsn ]")  [[CN]](http://feliving.github.io/developing-backbone-applications/backup/ "backbone book 中文翻译 [ by bluemsn ] ")
-
-1. Backbone Todo Demo 	[todomvc.com](http://todomvc.com/architecture-examples/backbone/ "todomvc --> backbone todo demo [ by bluemsn ] ")
-
-
-1. [Hello backbone example ](http://arturadib.com/hello-backbonejs/ "hello backbone demo [ by bluemsn ] ")  
-
-
-1. [backbone 源码解析 ](http://www.cnblogs.com/nuysoft/archive/2012/03/14/2395272.html "源码解析 [ by bluemsn ] ")
+ - [**backbone Api** ](http://backbonejs.org/ "Api backbone 前端mvc框架") + [**underscroe Api** ](http://underscorejs.org/ "Api  非常全的功能函数库  backbone 的依赖者") 
+ 1. [backbone 中文API Csser.com ](http://www.csser.com/tools/backbone/backbone.js.html "backbone 中文API [ by bluemsn ] ")  -----  [underscore 中文API Csser.com](http://www.css88.com/doc/underscore/#each "underscore 中文api 文档 [ by bluemsn ]")
+ 1. Backbone Book [[En]](http://addyosmani.github.io/backbone-fundamentals/ "Developing Backbone.js Applications [ by bluemsn ]")  [[CN]](http://feliving.github.io/developing-backbone-applications/backup/ "backbone book 中文翻译 [ by bluemsn ] ")
+ 1. Backbone Todo Demo 	[todomvc.com](http://todomvc.com/architecture-examples/backbone/ "todomvc --> backbone todo demo [ by bluemsn ] ")
+ 1. [Hello backbone example ](http://arturadib.com/hello-backbonejs/ "hello backbone demo [ by bluemsn ] ")  
+ 1. [backbone 源码解析 ](http://www.cnblogs.com/nuysoft/archive/2012/03/14/2395272.html "源码解析 [ by bluemsn ] ")
+    
+  
 	
 
 
 
-2. Angularjs
+### Angularjs
 
 
-3. jquery-ui
+### jquery-ui
 
 
-4. Extjs4
+### Extjs4
 
 
 
-6. Mootolls
+### Mootolls
 
 
 
