@@ -8,16 +8,15 @@
 
 -------------------
 
-####前端资源(FED)
+#前端资源(FED)
 
-#javascript
+###javascript
   1. javascript 工具
   2. javascript 库
   3. javascript 框架
   4. javascript 移动端
 
-
-###后端资源(BED)
+#后端资源(BED)
   1. NodeJs
   2. PHP
   3. Python
