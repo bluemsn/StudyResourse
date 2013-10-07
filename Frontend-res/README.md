@@ -1,6 +1,8 @@
 #前端开发工具
 
-前端开发工具(html、javascript、css)
+前端开发工具(html、javascript、css) 大部分来自 https://github.com/codylindley/ 
+在此基础上注释了一些了解过的项目 方便查阅找到自己需要的部分，也欢迎大家一起收集一些常用的工具、类、库来丰富前端界的开发 ！
+欢迎你的加入！
 
 
 ##Coding Tools(编码工具)
@@ -345,7 +347,8 @@
 ---
 
 ######Front End Application Structure [ MV**框架 ]()
-* [backbone](http://backbonejs.org/) `[backbone 依赖underscore ] `
+* [backbone](http://backbonejs.org/) `[backbone 依赖underscore ] ` 
+	* [backbone中文Api](http://www.csser.com/tools/backbone/backbone.js.html) +[ underscore中文Api](http://www.css88.com/doc/underscore/)  
 	* [marionette](http://marionettejs.com)
 	* [chaplin](http://chaplinjs.github.com/)
 	* [aura](http://addyosmani.github.com/aura/)
@@ -369,7 +372,7 @@
 * [batman.js](http://batmanjs.org/) (requires NodeJS)
 * [jsMVC](http://javascriptmvc.com/) (requires Java)
 * [montage](http://montagejs.org/) (requires NodeJS)
-* [express](http://expressjs.com/) (requires NodeJS) `[ 关注度较高 其它的未尝试 ]`
+* [express](http://expressjs.com/) (requires NodeJS) `[ 关注度较高 已到3.0版本 ]`
 
 ---
 
@@ -388,13 +391,13 @@
 * [qooxdoo](http://qooxdoo.org/)
 * [google closure](https://developers.google.com/closure/)
 
-######Front End Application monitoring
+######Front End Application monitoring `前端应用程序监控`
 
 * [Caliper](http://caliper.io)
 
 ---
 
-##Reference/Guide/Polyfill/Generator Tools
+##参考/指导/构建 工具
 
 
 ######Browser X Supports X  [浏览器支持情况检测]()
@@ -423,7 +426,7 @@
 * [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://www.w3.org/TR/html5/)
 * [HTML 5 Reference A Web Developer’s Guide to HTML 5](http://dev.w3.org/html5/html-author/)
 * [HyperText Markup Language (HTML), from Mozilla](https://developer.mozilla.org/en-US/docs/HTML)
-* [HTML5 differences from HTML4](http://dev.w3.org/html5/html4-differences/)
+* [HTML5 differences from HTML4](http://dev.w3.org/html5/html4-differences/) 
 * [html5shiv](https://github.com/aFarkas/html5shiv)
 * [html5.js](https://github.com/bestiejs/html5.js)
 
