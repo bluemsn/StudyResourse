@@ -206,10 +206,10 @@
 
 ---
 
-######Test Runners
+######Test Runners [单元测试]()
 
-* [testem](https://github.com/airportyh/testem)
-* [Karma](http://karma-runner.github.io/0.8/index.html)
+* [testem](https://github.com/airportyh/testem) 
+* [Karma](http://karma-runner.github.io/0.8/index.html)  `Angularjs 用了这个单元测试 `
 * [intern](http://theintern.io/)
 
 ---
@@ -582,9 +582,11 @@
 * [codeboot.org](http://codeboot.org/)
 * [continuum](http://benvie.github.com/continuum/)
 
-######JS focused editors
-* [jsfiddle](http://jsfiddle.net/)
-* [jsbin](http://jsbin.com/)
+######JS focused editors  [前端 即时预览编辑 分享平台]()
+* [jsfiddle](http://jsfiddle.net/) 
+* [jsbin](http://jsbin.com/) 
+* [codePen](http://codepen.io) `CodePen是HTML、CSS和JavaScript代码编辑器就在你的浏览器与即时预览代码 `
+* [runjs ](http://www.runjs.cn) `RunJS 是一个在线的中文网站，前端代码的编辑分享平台，拥有实时预览、高亮显示、代码格式化等功能，`[How to use Runjs](http://runjs.cn/help/runjs)
 
 ######Regular Expression editors
 * [Scriptular](http://scriptular.com/)
