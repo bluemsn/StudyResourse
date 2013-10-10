@@ -738,11 +738,12 @@
 
 
 
+===================================
 
-
-
-
-
+* Js 常用代码包收集
+    * [Class Of Marquee Scroll 通用不间断滚动JS封装类 ](http://popub.net:81/script/msclass.html);自动滚动函数 [demo](http://popub.net:81/script/MSClass1.65.html);
+    * [滚动内容展示特效](http://lab.hakim.se/scroll-effects/);
+    * [一次滚动一页](http://www.thepetedesign.com/demos/onepage_scroll_demo.html)([Github](https://github.com/peachananr/onepage-scroll))
 
 
 
