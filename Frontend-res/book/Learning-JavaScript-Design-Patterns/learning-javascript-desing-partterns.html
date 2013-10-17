@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <ul>
+            <li><a href="#introduction" rel="nofollow">简介</a></li>
+            <li><a href="#whatisapattern" rel="nofollow">什么是设计模式？</a></li>
+            <li><a href="#patternity" rel="nofollow">"Pattern"-ity Testing, Proto-Patterns &amp; The Rule Of Three</a>
+            </li>
+            <li><a href="#designpatternstructure" rel="nofollow">设计模式的结构</a></li>
+            <li><a href="#writingdesignpatterns" rel="nofollow">编写设计模式</a></li>
+            <li><a href="#antipatterns" rel="nofollow">反模式</a></li>
+            <li><a href="#categoriesofdesignpatterns" rel="nofollow">设计模式的分类</a></li>
+            <li><a href="#summarytabledesignpatterns" rel="nofollow">设计模式分类概览表</a></li>
+            <li><a href="#designpatternsjavascript" rel="nofollow">JavaScript 设计模式</a>
+                <ul>
+                    <li><a href="#constructorpatternjavascript" rel="nofollow">构造器模式</a></li>
+                    <li><a href="#modulepatternjavascript" rel="nofollow">模块化模式</a></li>
+                    <li><a href="#revealingmodulepatternjavascript" rel="nofollow">暴露模块模式</a></li>
+                    <li><a href="#singletonpatternjavascript" rel="nofollow">单例模式</a></li>
+                    <li><a href="#observerpatternjavascript" rel="nofollow">观察者模式</a></li>
+                    <li><a href="#mediatorpatternjavascript" rel="nofollow">中介者模式</a></li>
+                    <li><a href="#prototypepatternjavascript" rel="nofollow">原型模式</a></li>
+                    <li><a href="#commandpatternjavascript" rel="nofollow">命令模式</a></li>
+                    <li><a href="#facadepatternjavascript" rel="nofollow">外观模式</a></li>
+                    <li><a href="#factorypatternjavascript" rel="nofollow">工厂模式</a></li>
+                    <li><a href="#mixinpatternjavascript" rel="nofollow">Mixin 模式</a></li>
+                    <li><a href="#decoratorpatternjavascript" rel="nofollow">装饰模式</a></li>
+                    <li><a href="#detailflyweight" rel="nofollow">亨元（Flyweight）模式</a></li>
+                </ul>
+            </li>
+            <li><a href="#detailmvcmvp" rel="nofollow">JavaScript MV* 模式</a>
+                <ul>
+                    <li><a href="#detailmvc" rel="nofollow">MVC 模式</a></li>
+                    <li><a href="#detailmvp" rel="nofollow">MVP 模式</a></li>
+                    <li><a href="#detailmvvm" rel="nofollow">MVVM 模式</a></li>
+                </ul>
+            </li>
+            <li><a href="#modularjavascript" rel="nofollow">最新的模块化 JavaScript 设计模式</a>
+                <ul>
+                    <li><a href="#detailamd" rel="nofollow">AMD</a></li>
+                    <li><a href="#detailcommonjs" rel="nofollow">CommonJS</a></li>
+                    <li><a href="#detailharmony" rel="nofollow">ES Harmony</a></li>
+                </ul>
+            </li>
+            <li><a href="#designpatternsjquery" rel="nofollow">JQuery 中的设计模式</a>
+                <ul>
+                    <li><a href="#compositepatternjquery" rel="nofollow">Composite Pattern</a></li>
+                    <li><a href="#wrapperpatternjquery" rel="nofollow">适配器模式</a></li>
+                    <li><a href="#facadepatternjquery" rel="nofollow">外观模式</a></li>
+                    <li><a href="#observerpatternjquery" rel="nofollow">观察者模式</a></li>
+                    <li><a href="#iteratorpatternjquery" rel="nofollow">迭代器模式</a></li>
+                    <li><a href="#lazyinitialisationjquery" rel="nofollow">惰性初始模式</a></li>
+                    <li><a href="#proxypatternjquery" rel="nofollow">代理模式</a></li>
+                    <li><a href="#builderpatternjquery" rel="nofollow">建造者模式</a></li>
+                </ul>
+            </li>
+            <li><a href="#jquerypluginpatterns" rel="nofollow">jQuery 插件的设计模式</a></li>
+            <li><a href="#detailnamespacing" rel="nofollow">JavaScript 命名空间模式</a></li>
+            <li><a href="#conclusions" rel="nofollow">总结</a></li>
+            <li><a href="#references" rel="nofollow">参考</a></li>
+        </ul>
+        <div class="TextContent">
+            <h1 id="content_h1_6_5">
+                <a href="#introduction" rel="nofollow">#</a>&nbsp;前言 </h1>
+
+            <p> 写出可维护的代码的一个最重要的方面就是在代码中能够注意到重复出现的主题并对其进行优化。设计模式的知识领域是无价的。 </p>
+
+            <p> 在本书的第一部分，我们将探索那些真正可以应用于任何编程语言的设计模式的历史和重要性。如果你已经熟悉这段历史，可以直接跳过"<a href="#whatisapattern" rel="nofollow">什么是模式？</a>"这一章继续阅读。
+            </p>
+
+            <p> 设计模式可以追溯到早期的一名叫
+                <a href="http://en.wikipedia.org/wiki/Christopher_Alexander" rel="nofollow">Christopher Alexander</a>
+                的建筑师。他经常会发表一些他在处理设计问题时的经验和如何与建筑和城镇相联系的。有一天，当Alexander使用了一次又一次后，他发现某些设计结构会导致做出的效果是最好的。
+            </p>
+        </div>
+        <div class="TextContent">
+            <p> 在Sara Ishikawa和Murray Silverstein的协作下，Alexander发明了一种可以帮助授权任何人去设计和构建希望的任何规模的模式语言。这在1977年的一篇名为"A Pattern
+                Language"的论文中发表，在后来作为一本完整的<a
+                        href="http://www.amazon.co.uk/Pattern-Language-Buildings-Construction-Environmental/dp/0195019199/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1329440685&amp;sr=1-1"
+                        rel="nofollow">精装书</a>发表。 </p>
+
+            <p>
+                大约30年前，软件工程师开始将Alexander曾写过的原理并入第一版的设计模式，这是一个用来对那些想要改善他们编码技巧的新手开发者的一个指南。要注意，这时设计模式背后的概念实际上已经在编程行业成立以来就有了，虽然不是那么正式的形式。 </p>
+
+            <p> 第一个也是最标志性的关于软件工程的设计模式的正式作品是在1995年一本叫<em>Design Patterns: Elements Of Reusable Object-Oriented
+                Software</em>的书中发表，这是<a href="http://en.wikipedia.org/wiki/Erich_Gamma" rel="nofollow">Erich
+                Gamma</a>,<a href="http://en.wikipedia.org/w/index.php?title=Richard_Helm&amp;action=edit&amp;redlink=1"
+                             rel="nofollow"> Richard Helm</a>,<a href="http://en.wikipedia.org/wiki/Ralph_Johnson"
+                                                                 rel="nofollow"> Ralph Johnson</a>和<a
+                    href="http://en.wikipedia.org/wiki/John_Vlissides" rel="nofollow">&nbsp;John Vlissides</a> -
+                一群被称为Gang of Four(简称GoF)的人写的。 </p></div>
+
+        <div class="TextContent"><p>
+            GoF的出版物被认为是非常有助于推动设计模式的概念在我们的领域发展的，因为它描述了大量的开发技术和缺陷，而且还有在今天的世界中大量使用的23个核心的面向对象的设计模式。我们将详细地在"设计模式分类"这一章中介绍这些模式。 </p>
+
+            <p> 在本书中，我们将看到一些流行的JavaScript设计模式，并探索为什么一些特定的模式比其他的更适合你的项目。但请记住模式不仅仅可以应用在单纯的JavaScript
+                (例如：标准JavaScript代码)里，也可以在一些像<a href="http://jquery.com" rel="nofollow">jQuery</a>或<a
+                        href="http://dojotoolkit.org" rel="nofollow">dojo</a>的抽象库里使用。在我们开始之前，让我们看看模式在软件设计中的确切定义。 </p>
+        </div>
+
+
+        <div class="TextContent"><h1 id="content_h1_9_5"> 模式是什么？ </h1>
+
+            <p> 一个模式就是一个可重用的方案，可应用于在软件设计中的常见问题 - 在我们的例子里&nbsp;- 就是编写JavaScript的web应用程序。模式的另一种解释就是一个我们如何解决问题的模板 -
+                那些可以在许多不同的情况里使用的模板。 </p>
+
+            <p> 那么理解和熟悉模式为什么是如此的重要？设计模式有以下三点好处： </p>
+            <ol>
+                <li>
+                    <strong>模式是行之有效的解决方法：</strong>他们提供固定的解决方法来解决在软件开发中出现的问题，这些都是<span>久经考验的反应了开发者的经验和见解的使用模式来定义的技术</span>。
+                </li>
+                <li><strong>模式可以很容易地重用：</strong>一个模式通常反映了一个可以适应自己需要的开箱即用的解决方案。这个特性让它们很健壮。</li>
+                <li><strong>模式善于表达：</strong>当我们看到一个提供某种解决方案的模式时，<span>一般有一组结构和词汇</span>可以非常优雅地帮助表达相当大的解决方案。</li>
+            </ol>
+        </div>
+
+
+        <div class="TextContent">
+            模式不是一个确切的解决方案。我们要记住模式的角色仅仅是给我们提供一个解决方案。模式不能解决所有的设计问题，也不能代替优秀的软件设计师。然而，它们在帮助我们。接下来我们将看看模式必须提供的其他的一些优势。
+            <ul>
+                <li><strong>模式的重用可以帮助防止在应用程序开发过程中出现的一些可能导致重大问题的小问题。</strong>这意味着当代码是建立在行之有效的模式上时，我们可以花更少的时间去关心我们的代码结构，从而能花更多的时间关注我们的解决方案的整体质量。这是因为模式可以鼓励我们在更好的结构化和有组织的方式下编码，这将避免在未来由于清洁的目的而去重构它。
+                </li>
+            </ul>
+            <ul>
+                <li><strong>模式可以提供一个不需要绑定到一个特定问题的书面的概括性的解决方案。</strong>这个广义的方法意味着不用管我们正在处理的应用程序&nbsp;(许多情况下的编程语言)
+                    设计模式的应用可以提高我们的代码的结构。
+                </li>
+                <li><strong>某些模式可以通过避免重复来减小我们代码的文件大小。</strong><span>通过鼓励开发者更仔细地看待他们的解决方案来减少重复的地方，如通过将类似的执行流程作为一个一般性的函数来减少函数的数量，这样我们就可以减小代码库的总体大小，这也成为使代码更</span><em>DRY。</em>
+                </li>
+                <li><strong>模式增加了开发者的词汇，这使得交流更快速。</strong></li>
+                <li><strong>经常使用的模式可通过收集其他使用这些模式的开发人员贡献给设计模式社区的经验来改进。</strong>在某些情况下，这将导致全新模式的创建，同时也可以提供改进的指导大家如何使用特定的模式才是最好的。这可以确保基于模式的解决方案继续变得比特别的解决方案更健壮。
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="TextContent"><h3 id="content_h3_11_5"> 我们已经每天都在使用模式 </h3>
+
+            <p> 为了了解模式有多有用，让我们看看jQuery提供给我们的一个很简单的元素选择问题。 </p>
+
+            <p> 假设我们有一个为页面上每一个class为"foo"的DOM元素添加一个计数器的脚本，什么才是查询这个元素的集合的最有效的方法呢？有几种不同的方法可以解决这个问题： </p>
+            <ol>
+                <li> 选择页面上所有的元素并存储它们的引用，然后使用正则表达式 (或其他方式) 来过滤这个集合中那些class为"foo"的元素的引用。</li>
+                <li> 使用像<span>as</span><span>querySelectorAll()的</span>现代原生浏览器的特性，来选择所有的class为"foo"的元素。</li>
+                <li> 使用<span>像</span><span>asgetElementsByClassName()的</span>原生特性同样可以获取期望的集合。</li>
+            </ol>
+        </div>
+
+        <div class="TextContent"><p> 那些，这些选择哪个是最快的呢？实际上第三个，比其他的 <a
+                href="http://jsperf.com/getelementsbyclassname-vs-queryselectorall/5" rel="nofollow">替代选择</a>
+            <span>快</span> <span>8-10倍。但在实际的应用程序中，第三个选择无法在</span>Internet Explorer 9以下的版本中使用，从而只能使用第一个，第二个和第三个都不支持。 </p>
+
+            <p>
+                使用jQuery的开发人员就不必担心这个问题，因为很幸运的是它使用<em>Facade</em>模式把这个问题抽象了出来。正如我们即将在后面更详细的介绍的那样，这种模式提供了一组<span>简单的</span>对更复杂的底层代码的抽象接口&nbsp;(例如$el.css(),$el.animate())
+                。正如我们所看到的，这意味着我们只会对实现级别的细节花费更少的时间。 </p>
+
+            <p> 在其后，库会根据我们当前浏览器的支持自动选择最优的方法来选择元素，我们只使用抽象层。 </p></div>
+
+
+        <div class="TextContent"><p>
+            我们可能都熟悉jQuery的$("selector")，这是更容易使用的在一个页面选择HTML元素的方法，这样我们就不必手动来选择getElementById(),getElementsByClassName(),getElementByTagName()等方法。 </p>
+
+            <p>
+                虽然我们知道querySelectorAll()试图解决这个问题，但比比使用jQuery的Facade接口和自己来选择最优的方式时花费的精力，毫无疑问，使用模式可以提供真实世界的抽象价值。&nbsp; </p>
+
+            <p> 我们将在本书的后面看到更多的设计模式。 </p></div>
+
+        <div class="TextContent"><h2 id="content_h2_14_5"> “模式特性”测试，模式原型和三条规则 </h2>
+
+            <p>
+                记住并不是每个算法、每个最佳实践和每个解决方案都可能被认为是一个完整的模式。这儿可能缺少了几个关键因素，而且模式社团除非经过严格的审查才谨慎地声明某东西为模式的。即使某东西对我们来说似乎满足了模式标准，它都不应该被当作模式，直到它由他人经过适当时间的周密调查和测试后才可能当作模式。 </p>
+
+            <p>
+                回头看看Alexander曾经做过的工作，他声明模式应当既是过程也是“事物”。这个定义故意不明确，因为他紧跟着说模式应该是创建“事物”的过程。这就是为什么模式通常集中定位在表面上可识别的结构的原因。例如，我们应当能够可视化地描绘（或者绘制）图片来展示把模式应用到实践中的结构。 </p>
+        </div>
+    </body>
+</html>
