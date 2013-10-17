@@ -21,9 +21,9 @@
 我将永远感激那些审阅并帮助改进此书的有才干的技术审核人员们， 包括所有的来自社区的人士。
 他们带来的知识和热情简直令人惊异。官方的技术审核人员的微博和博客也是一个思想和灵感经常的来源，我诚恳的推荐并挑出它们。
 
-*Nicholas Zakas ([http://nczonline.net](http://nczonline.net), @slicknet)
-*Andrée Hansson ([http://andreehansson.se](http://andreehansson.se), @peolanha)
-*Luke Smith ([http://lucassmith.name](http://lucassmith.name), @ls_n)
-*Eric Ferraiuolo ([http://ericf.me/](http://ericf.me/), @ericf)
-*Peter Michaux ([http://michaux.ca](http://michaux.ca), @petermichaux)
-*Alex Sexton ([http://alexsexton.com](http://alexsexton.com), @slexaxton)
+* Nicholas Zakas ([http://nczonline.net](http://nczonline.net), @slicknet)
+* Andrée Hansson ([http://andreehansson.se](http://andreehansson.se), @peolanha)
+* Luke Smith ([http://lucassmith.name](http://lucassmith.name), @ls_n)
+* Eric Ferraiuolo ([http://ericf.me/](http://ericf.me/), @ericf)
+* Peter Michaux ([http://michaux.ca](http://michaux.ca), @petermichaux)
+* Alex Sexton ([http://alexsexton.com](http://alexsexton.com), @slexaxton)
