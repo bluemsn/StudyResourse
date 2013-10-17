@@ -8,8 +8,7 @@
 因此他工作的结果就是一个更新的模式，在这个模式中，我们可以简单地在私有域中定义我们所有的函数和变量，并且返回一个匿名对象，
 这个对象包含有一些指针，这些指针指向我们想要暴露出来的私有成员，使这些私有成员公有化。
 
-````````javascript```````
-
+```javascript
 var myRevealingModule = function () {
         var privateVar = "Ben Cherry",
             publicVar  = "Hey there!";
@@ -39,13 +38,11 @@ var myRevealingModule = function () {
 }();
 
 myRevealingModule.setName( "Paul Kinlan" );
-
-
-`````````````````````
+```
 这个模式可以用于将私有函数和属性以更加规范的命名方式展现出来。
 
 
-````````javascript```````
+```javascript
 var myRevealingModule = function () {
 
         var privateCounter = 0;
@@ -78,10 +75,7 @@ var myRevealingModule = function () {
     }();
 
 myRevealingModule.start();
-
-
-
-`````````````````````
+```
 
 ####优势
 
