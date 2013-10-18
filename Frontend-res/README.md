@@ -582,10 +582,10 @@
 * [codeboot.org](http://codeboot.org/)
 * [continuum](http://benvie.github.com/continuum/)
 
-######JS focused editors  [前端 即时预览编辑 分享平台]()
-* [jsfiddle](http://jsfiddle.net/) 
-* [jsbin](http://jsbin.com/) 
-* [codePen](http://codepen.io) `CodePen是HTML、CSS和JavaScript代码编辑器就在你的浏览器与即时预览代码 `
+######JS focused editors  [前端 即时预览编辑 分享平台 demo练习]()
+* [jsfiddle](http://jsfiddle.net/) `jsfiddle是HTML、CSS和JavaScript代码编辑器就在你的浏览器与即时预览代码 可以选择你需要的库`
+* [jsbin](http://jsbin.com/)  `( 提供平行式可选择 html css js console preview ) `
+* [codePen](http://codepen.io) `CodePen是HTML、CSS和JavaScript代码编辑器就在你的浏览器与即时预览代码------很强大 可以使用less sass(sass,scss) stylus coffescript livescript 写demo `
 * [runjs ](http://www.runjs.cn) `RunJS 是一个在线的中文网站，前端代码的编辑分享平台，拥有实时预览、高亮显示、代码格式化等功能，`[How to use Runjs](http://runjs.cn/help/runjs)
 
 ######Regular Expression editors
@@ -599,14 +599,12 @@
 * [cssdesk](http://cssdesk.com/)
 
 ######[浏览器端 编辑器]()
-* HTML/CSS/JS editors 
-	* [tinker.io](https://tinker.io/)
-	* [tinkerbin](http://tinkerbin.com/)
-	* [Plunker](https://github.com/filearts/plunker)
-	* [cssdeck](http://cssdeck.com/)
-	* [codepen](http://codepen.io/)  `代码编辑器`
+* HTML/CSS/JS editors
+	* [Plunker](https://github.com/filearts/plunker) [http://plnkr.co/](http://plnkr.co/) `代台分享平台的社区 在线编辑式分享 支持评论回复`
+	* [cssdeck](http://cssdeck.com/) `代码片段仓库 可当做一个资源库使用  嘎嘎给力啊`
+	* [codepen](http://codepen.io/)  `代码编辑器 强大 功能丰富`
 * Execute/Test live code 
-	* [runnable](http://runnable.com/) `[强大 ]`
+	* [runnable](http://runnable.com/) `[ 强大 ] 可以利用web 跑服务 支持命令行 工具`
 * Browser IDE's `[浏览器端 IDE  ]`
 	* [koding](https://koding.com/)
 	* [cloud9 IDE](https://c9.io/)
